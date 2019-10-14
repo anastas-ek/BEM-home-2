@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background: url(./img/main.png);
+    max-width: 800px;
+    max-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.product {
+    width: 86%;
+    height: 400px;
+    background-color: #111a28;
+    margin: 100px 7%;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 68px 30px;
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+.product__photo{
+    max-width: 329px;
+    max-height: 159px;
+}
+.product__content{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    margin-left: 80px;
+    padding-right: 36px;
+    height: 100%;
+
+}
+.product__wrapper {
+    display: flex;
+    flex-flow:column nowrap;
+}
+.product__title{
+    color:#e1e1e1 ;
+    font-size: 24px;
+    
+}
+
+.product__info{
+    color: #e1e1e1;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.rating__star--full{
+    color: #f7bf16;
+    font-size: 14px;
+}
+.rating__star--empty{
+    color: #7b8088;
+    font-size: 14px;
+}
+
+.product__choice{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.select__choice{
+    background-color:#111a28 ;
+    width: 70px;
+    height: 30px;
+    color: #93969b;
+    margin-right: 3px;
+    font-size: 14px;
+    padding-left: 5px;
+    border: 1px solid #4f5560;
+   
+    
+}
+
+
+
+.product__toCart{
+    font-size: 14px;
+    color: #e1e1e1;
+    background-color: #202835;
+    border: 2px solid #4f5560;
+    padding: 11px 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product__choice-color{
+    display: flex;
+    flex-flow: row nowrap;
+    position: absolute;
+    bottom: 30px;
+    left: 167px;
+
+}
+
+.choice-color{
+    width: 13px;
+    height: 13px;
+    border-radius:50% ;
+    margin:0 5px ;
+    
+    border: 2px solid rgba(red, green, blue, 0);
+}
+.color-grey{
+    background-color:#1f273f ;
+}
+.color-white{
+    background-color:#ffffff ;
+}
+.color-red{
+    background-color: #ed3333;
+}
+.color-green{
+    background-color:#29e3ea ;
+}
+
+.choice-color:hover{
+    border:2px solid #7c8189;
+}
